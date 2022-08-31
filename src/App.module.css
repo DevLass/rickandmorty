@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #DD3B13; 
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    left: 0;
+    right: 5%;
+    top: 40%;
+    bottom: 0;
+    margin: auto;
+}
+
+.rotateCenter {
+    animation: rotate-center 20s infinite linear;
+}
+
+@keyframes rotate-center {
+    0% {
+        rotate: 0deg;
+        transform: scale(1);
+    }
+    100% {
+        rotate: 360deg;
+        transform: scale(1.01);
+    }
+  }
+  
