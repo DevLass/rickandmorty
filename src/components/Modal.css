@@ -1,0 +1,92 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background:#e8fceb;
+    padding: 14px 28px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 250px;
+    border: solid #24484a 3px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.modal-content img{ 
+    position: relative;
+    border: solid #24484a 3px;
+    border-radius: 0px 0px 12px 12px;
+    width: 80%;
+}
+
+.charImage{
+    cursor: default;
+}
+
+.modal-content p{
+    font-size: 1.2rem;
+    color: #3898ac;
+}
+
+.modal-content h2{
+    color: #3898ac;
+}
+
+.close-modal {
+    background:#44b4cc;;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border: 2px solid #24484a;
+    border-radius: 0px 0px 12px 12px;
+    transition: 250ms;
+    color: #24484a;
+}
+
+.close-modal:hover{
+    transform: scale(1.1);
+}
+
+.greyText{
+    color: #3899ac9f;
+}
+
+.blackText{
+    color: #328494;
+}
+
+.rotateCenter {
+    animation: rotate-center 20s infinite linear;
+}
+
+@keyframes rotate-center {
+    0% {
+        rotate: 0deg;
+        transform: scale(1);
+    }
+    100% {
+        rotate: 360deg;
+        transform: scale(1.01);
+    }
+  }
+  

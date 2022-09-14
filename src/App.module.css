@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 body{
@@ -22,20 +24,6 @@ img{
     top: 40%;
     bottom: 0;
     margin: auto;
+    cursor: pointer;
 }
 
-.rotateCenter {
-    animation: rotate-center 20s infinite linear;
-}
-
-@keyframes rotate-center {
-    0% {
-        rotate: 0deg;
-        transform: scale(1);
-    }
-    100% {
-        rotate: 360deg;
-        transform: scale(1.01);
-    }
-  }
-  
