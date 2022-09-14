@@ -4,7 +4,7 @@
   <img src="https://github.com/italicnich/rickandmorty/blob/master/readmeimg/img-gif.gif" alt="Page Preview">
 </p>
 
-<h3 align="justify"> <i> This is my currency to BRL converter, it is very simple and it was one of the first projects I did with React, it uses the UseState hook and the <a href="https://docs.awesomeapi.com.br/api-de-moedas">currency quote API</a>. <br><br> Perhaps another relevant point is the background made only with CSS, other versions of it can be found <a href="https://www.gradientmagic.com/collection/brilliantangular">here</a>.</i> </h3>
+<h3 align="justify"> <i> This is a simple application, which consumes the <a href="https://rickandmortyapi.com/">Rick and Morty API</a> and generates a random character taking your information and displaying it in a popup. <br> <br> But I believe that the strong point is all the stylization, the rotating portal-shaped button, in addition to the stylized background image.</i> </h3>
 
  
 <h3 align="justify">
