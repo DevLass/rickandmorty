@@ -1,7 +1,7 @@
 <h1 align="center"> Hey there, i'm Nich, and this is my Rick and Morty character generator</h1>
  
 <p align="center">
-  <img src="https://github.com/italicnich/rickandmorty/blob/master/readmeimg/img-gif.gif" alt="Page Preview">
+  <img src="https://github.com/DevLass/rickandmorty/blob/master/readmeimg/img-gif.gif" alt="Page Preview">
 </p>
 
 <h3 align="justify"> <i> This is a simple application, which consumes the <a href="https://rickandmortyapi.com/">Rick and Morty API</a> and generates a random character taking your information and displaying it in a popup. <br> <br> But I believe that the strong point is all the stylization, the rotating portal-shaped button, in addition to the stylized background image.</i> </h3>
